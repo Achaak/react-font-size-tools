@@ -1,6 +1,6 @@
 # react-font-tools
 
-Tools to help you with screen resizing.
+Tools to help you with font of your app.
 
 ## Install
 
