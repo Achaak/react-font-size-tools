@@ -7,8 +7,7 @@
   "jsnext:main": "lib/index.es.js",
   "keywords": [
     "react",
-    "resize",
-    "screen",
+    "font",
     "react-hook"
   ],
   "files": [
