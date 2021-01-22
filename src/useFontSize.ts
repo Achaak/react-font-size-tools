@@ -12,11 +12,15 @@ const useFontSize = () => {
   }, [finalFontSize])
 
   const getFontSize = () => {
-    return localStorage.getItem("font-size")
+    if(typeof window === 'undefined') return null
+
+    return window.localStorage.getItem("font-size")
   }
 
   const setFontSize = (value: string) => {
-    localStorage.setItem("font-size", value)
+    if(typeof window === 'undefined') return
+
+    window.localStorage.setItem("font-size", value)
     setFinalFontSize(value)
   }
 
