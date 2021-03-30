@@ -1,6 +1,6 @@
 {
   "name": "react-font-tools",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Tools to help you with font of your app.",
   "main": "./lib/index.js",
   "module": "lib/index.es.js",
@@ -29,7 +29,7 @@
   "devDependencies": {
     "@types/react": "^17.0.3",
     "@types/react-dom": "^17.0.3",
-    "rollup": "^2.42.4",
+    "rollup": "^2.44.0",
     "rollup-plugin-commonjs": "^10.1.0",
     "rollup-plugin-node-resolve": "^5.2.0",
     "rollup-plugin-peer-deps-external": "^2.2.4",
